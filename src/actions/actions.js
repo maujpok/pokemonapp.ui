@@ -1,8 +1,9 @@
+import { BASIC_URL } from "../helpers";
 
 export function fetchApi () {
     return async function(dispatch) {
         dispatch({type: "LOADING"});
-        await fetch('http://localhost:3001/pokemons')
+        await fetch(`${BASIC_URL}/pokemons`)
         .then(res => res.json())
         .then(data => {
             let items = data.map(e => {
@@ -23,7 +24,7 @@ export function fetchApi () {
 export function getName(id) {
     return function(dispatch) {
         dispatch({type: "LOADING"});
-        fetch(`http://localhost:3001/pokemons/${id}`)
+        fetch(`${BASIC_URL}/pokemons/${id}`)
             .then(res => res.json())
             .then(data => {
                 data.types = data.types.join(' ')
@@ -34,7 +35,7 @@ export function getName(id) {
 
 export function sendData(data) {
     return async function (dispatch) {
-        await fetch('http://localhost:3001/pokemons',{
+        await fetch(`${BASIC_URL}/pokemons`,{
             method: "POST",
             body: JSON.stringify(data),
             headers: {'Content-Type' : 'application/json'}
@@ -48,7 +49,7 @@ export function sendData(data) {
 
 export function getTypes(){
     return async function(dispatch){
-        await fetch('http://localhost:3001/types')
+        await fetch(`${BASIC_URL}/types`)
         .then(res => res.json())
         .then(data => {
             let types = data.map(({id, name}) => {
@@ -65,7 +66,7 @@ export function getTypes(){
 export function searchName (name) {
     return function (dispatch) {
         dispatch(searching());
-        fetch(`http://localhost:3001/pokemons?name=${name}`)
+        fetch(`${BASIC_URL}/pokemons?name=${name}`)
             .then(res => res.json())
             .then(data => {
                 dispatch(foundSuccess(data))

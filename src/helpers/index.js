@@ -66,4 +66,4 @@ export function cleanCheckbox() {
           document.create_form.elements[i].checked=0
  };
 
-//  export const validsURL = ['png', 'jpg', 'jpeg', 'gif', 'svg'];
+export const BASIC_URL = 'https://pokemonapp-api-maujpok.herokuapp.com';
