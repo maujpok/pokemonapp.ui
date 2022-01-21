@@ -1,0 +1,33 @@
+.pokemoncard {
+    width: 40vh;
+    height: 30vh;
+    margin: 10px;
+    background-color: whitesmoke;
+    color: steelblue;
+    text-decoration: none;
+    border-radius: 2rem;
+    position: relative;
+    box-shadow: 0px 0px 7px steelblue;
+}
+
+.pokemoncard:hover{
+    -webkit-transform: scale(1.05, 1.05);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 150ms;
+    -moz-transform: scale(1.05, 1.05);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 150ms;
+}
+
+.img {
+    position: relative;
+    width: 70%;
+    height: 40%;
+    margin-top: 10px;
+    position:static;
+    border-radius: 1rem;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}

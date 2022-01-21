@@ -1,0 +1,29 @@
+.navbar {
+    background-color: steelblue;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px steelblue;
+}
+
+.navbar p {
+    margin-top: 10px;
+    padding: 5%;
+    text-decoration: none;
+    color: steelblue;
+    background-color: white;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    margin-top: 15px;
+}
+
+.navbar p:hover{
+    background-color:orange;
+    color: white;
+}

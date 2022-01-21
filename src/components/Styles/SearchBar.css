@@ -1,0 +1,87 @@
+.btn {
+    color: steelblue;
+    border-radius: 0.5rem;
+    border:none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 3px;
+    max-width: 30%;
+    font-size: 100%;
+    box-shadow: 0px 0px 5px steelblue;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: steelblue;
+}
+
+#danger{
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+}
+
+.searchbar{
+    width: 10rem;
+    height: 95%;
+    padding: .5rem;
+    /* background-color: #FFC300; */
+    background-color: whitesmoke;
+    color: steelblue;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    box-shadow: 0px 0px 10px steelblue;
+}
+
+.searchbar label {
+    font-weight: bold;
+}
+
+#searchdiv{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+#searchdiv span {
+    text-transform: capitalize;
+}
+
+#search_input {
+    border: none;
+    border-radius: .5rem;
+    margin-right: .25rem;
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: .5rem;
+}
+
+#search_input:focus{
+    outline: none;
+    
+}
+
+#filterdiv{
+    width: 100%;
+}
+
+#filterdiv select{
+    background-color: whitesmoke;
+    color: steelblue;
+    text-align: start;
+    margin-bottom: .5rem;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    border: none;
+    border-radius: .25rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+#order_filter:focus {
+    outline: none;
+}
