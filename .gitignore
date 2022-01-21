@@ -44,6 +44,7 @@ jspm_packages/
 .firebase/
 build/
 
+
 # TypeScript v1 declaration files
 typings/
 
