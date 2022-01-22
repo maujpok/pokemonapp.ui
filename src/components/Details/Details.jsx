@@ -3,7 +3,7 @@ import { getName } from "../../actions/actions";
 import { useDispatch, useSelector } from "react-redux";
 import {Link} from "react-router-dom";
 import { imageLoading } from "../../helpers";
-import "../Styles/Details.css"; 
+import "./Details.css"; 
 
 export default function Details ({id}) {
 

@@ -19,11 +19,17 @@
     border-radius: .5rem;
     justify-content: center;
     align-items: center;
-    font-family: cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 15px;
 }
 
 .navbar p:hover{
-    background-color:orange;
+    background-color: green;
+    color: white;
+}
+
+.navbar h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
     color: white;
 }

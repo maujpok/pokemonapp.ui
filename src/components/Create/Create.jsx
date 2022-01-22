@@ -3,7 +3,7 @@ import { useDispatch, useSelector} from "react-redux";
 import { Link } from "react-router-dom";
 import { getTypes, sendData } from "../../actions/actions";
 import { createJson, fromAtoZ, newPokemon, nums, attributes, cleanCheckbox, validURL } from "../../helpers";
-import "../Styles/Create.css";
+import "./Create.css";
 
 export default function Create () {
 

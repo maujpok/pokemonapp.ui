@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import "../Styles/Pokemon.css";
+import "./Pokemon.css";
 
 
 export default function Pokemon({id, img, name, types}) {

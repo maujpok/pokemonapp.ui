@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Paginator.css";
+import "./Paginator.css";
 
 export default function Paginator({itemsPerPage, totalPokemons, changePage}) {
     

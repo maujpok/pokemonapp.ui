@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {cleanSearchResult, filterItems, getTypes, orderItems, searchName} from "../../actions/actions";
 import {Link} from "react-router-dom";
 import { fromAtoZ, pokeball } from "../../helpers";
-import "../Styles/SearchBar.css";
+import "./SearchBar.css";
 
 
 export default function SearchBar({setCurrentPage}) {
